@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vet Ganado</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    .navbar {
+      background-color: #00BFFF; /* Fondo celeste */
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: #000000; /* Letras negras */
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 0; /* Evitar espacio en la última casilla */
+    }
+
+    .navbar-nav .nav-item .nav-link {
+
+      border-bottom: 3px solid transparent; /* Borde inferior inicial */
+      transition: border-bottom 0.3s; /* Animación de transición */
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color:rgb(210, 179, 5);
+      border-bottom: 3px solid #000000; /* Borde inferior al hacer hover */
+    }
+    main{
+        padding-top: 50px;
+        margin: 5px;
+        
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../../index.html">Vet Ganado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!-- Justificar a la derecha en PC -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown"> <!-- Agregado dropdown class -->
+            <a class="nav-link dropdown-toggle" href="#" id="vacunosDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Vacunos <!-- Cambiado de Vacas a Vacunos -->
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="vacunosDropdown">
+              <li><a class="dropdown-item" href="#">Agregar</a></li>
+              <li><a class="dropdown-item" href="./dosis.html">Dosis</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown"> <!-- Agregado dropdown class -->
+            <a class="nav-link dropdown-toggle" href="#" id="ovinosDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ovinos <!-- Cambiado de Camelidos a Ovinos -->
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="ovinosDropdown">
+              <li><a class="dropdown-item" href="../ovino/ovinos.html">Agregar</a></li>
+              <li><a class="dropdown-item" href="../ovino/dosis.html">Dosis</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/enfermedades.html">Enfermedades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/profesionales.html">Profesionales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../paginas/soporte.html">Soporte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido de la página -->
+  <main>
+    <div id="contenedorPrincipal" class="container">
+      <h1>Formulario de Vacas</h1>
+      <form id="formularioVacas">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="color" class="form-label">Color</label>
+          <input type="text" class="form-control" id="color" required>
+        </div>
+        <div class="mb-3">
+          <label for="sexo" class="form-label">Sexo</label>
+          <select class="form-select" id="sexo" required>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+          <input type="date" class="form-control" id="fechaNacimiento" required>
+        </div>
+        <div class="mb-3">
+          <label for="nombreMadre" class="form-label">Nombre de la Madre</label>
+          <input type="text" class="form-control" id="nombreMadre">
+        </div>
+        <div class="mb-3">
+          <label for="nombrePadre" class="form-label">Nombre del Padre</label>
+          <input type="text" class="form-control" id="nombrePadre">
+        </div>
+        <div class="mb-3">
+          <label for="nota" class="form-label">Nota</label>
+          <textarea class="form-control" id="nota" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+      <div id="tablaVacas">
+        <!-- Tabla de vacas -->
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

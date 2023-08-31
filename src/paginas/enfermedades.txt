@@ -1,0 +1,20 @@
+Mastitis,Inflamación de la ubre,Secreción anormal de leche,Hinchazón,Calor y sensibilidad,Antibióticos, control de higiene y manejo adecuado de la ordeña.
+Fiebre Aftosa,Vesículas en pezuñas, boca y ubres,Fiebre,Cojera,No hay tratamiento específico, se enfoca en la prevención a través de la vacunación.
+Neumonía Bovina,Tos,Dificultad respiratoria,Secreción nasal,Fiebre,Antibióticos, manejo adecuado del alojamiento y ventilación.
+Paratuberculosis,Pérdida de peso,Diarrea crónica,Debilidad,No hay cura, el manejo se centra en prevenir la propagación.
+Hipocalcemia (Fiebre de la Leche),Debilidad,Dificultad para moverse,Temblores,Ajustes en la dieta, administración de calcio.
+Enfermedad Respiratoria Bovina,Tos,Dificultad respiratoria,Secreción nasal,Pérdida de apetito,Antibióticos, manejo ambiental y nutricional adecuado.
+Anaplasmosis,Anemia,Debilidad,Fiebre,Ictericia,Antibióticos y manejo del control de garrapatas.
+Cetosis,Pérdida de apetito,Debilidad,Mal aliento,Ajustes en la dieta, administración de glucosa.
+Hinchazón (Timpanismo),Distensión abdominal,Dificultad para respirar,Agitación,Alivio del gas mediante sondas y cambios en la alimentación.
+Tristeza Bovina,Apetito reducido,Letargo,Aislamiento,Identificación y manejo de factores estresantes.
+Enfermedad de Aujeszky,Cojera,Dificultad para respirar,Tos,Convulsiones,No hay cura, se enfoca en la prevención a través de la vacunación.
+Fiebre de Leche,Disminución del apetito,Disminución de la producción de leche,Desorientación,Ajustes en la dieta y tratamiento sintomático.
+Bronquitis Infecciosa,Tos,Secreción nasal,Estornudos,Dificultad para respirar,Apoyo sintomático y manejo del ambiente.
+Ojo Rosado,Inflamación del ojo,Secreción ocular,Dolor ocular,Lavado ocular y tratamiento antibiótico.
+Fiebre Q,Fiebre,Dolor de cabeza,Confusión,Malestar general,Antibióticos y tratamiento de los síntomas.
+Leptospirosis,Fiebre,Dolor muscular,Insuficiencia renal,Prevención mediante vacunación y manejo del ambiente.
+Tuberculosis Bovina,Pérdida de peso,Tos crónica,Dificultad respiratoria,Rechazo del alimento,Control y sacrificio de animales afectados.
+Brucelosis,Fiebre,Pérdida de peso,Abortos,Inflamación de los testículos,Control y prevención mediante pruebas y eliminación de animales afectados.
+Papilomatosis,Presencia de verrugas en la piel,Secreción nasal,Dificultad para respirar,Eliminación de verrugas y manejo ambiental.
+Enterotoxemia,Debilidad,Diarrea,Distensión abdominal,Vacunación y tratamiento sintomático.
